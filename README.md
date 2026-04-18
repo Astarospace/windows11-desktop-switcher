@@ -23,6 +23,9 @@ hotkey support for this feature (for instance, there's no way to go directly to 
 8. Choose desktop_switcher.ahk script.
 9. At "Base File (.bin, exe)", choose v1.1.37.02a0 U32 Ahk2Exe.exe (AutoHotKey will likely prompt you to install this version while trying to compile this script).
 10. Press Convert
+
+<img width="727" height="508" alt="image" src="https://github.com/user-attachments/assets/7d520caf-1ebb-436c-babd-50d338ab92af" />
+
 * I would recommend putting it in your startup folder, the steps to do so are:
 1. Right click on the desktop_switcher.exe
 2. Click on "Create Shortcut".
