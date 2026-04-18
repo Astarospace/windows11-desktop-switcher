@@ -26,6 +26,7 @@ hotkey support for this feature (for instance, there's no way to go directly to 
 
 <img width="727" height="508" alt="image" src="https://github.com/user-attachments/assets/7d520caf-1ebb-436c-babd-50d338ab92af" />
 
+
 * I would recommend putting it in your startup folder, the steps to do so are:
 1. Right click on the desktop_switcher.exe
 2. Click on "Create Shortcut".
