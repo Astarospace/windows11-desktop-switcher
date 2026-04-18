@@ -11,7 +11,23 @@ the mapping I use on linux (with dwm), and it's always annoyed me that Windows d
 hotkey support for this feature (for instance, there's no way to go directly to a desktop by number).
 
 ## Installation
-Install AutoHotKey, then run the desktop_switcher.ahk script (open with AutoHotKey if prompted). I would recommend putting it in your startup folder and it'll be invoked on login.
+1. Install AutoHotKey.
+2. Click on the green "Code" button.
+3. Download the zip file.
+4. Unzip the file.
+5. Open autoHotKey Dash.
+6. Click on "Compile".
+7. At "Source (script file)", click browse.
+8. Choose desktop_switcher.ahk script.
+9. At "Base File (.bin, exe)", choose v1.1.37.02a0 U32 Ahk2Exe.exe (AutoHotKey will likely prompt you to install this version while trying to compile this script).
+10. Press Convert
+* I would recommend putting it in your startup folder, the steps to do so are:
+1. Right click on the desktop_switcher.exe
+2. Click on "Create Shortcut".
+3. Cut the shortcut file.
+4. Click Win+R
+5. Type shell:startup, and press enter.
+6. Paste the shortcut file.
 
 ## Hotkeys
         <Win> + <Num>      - Switches to virtual desktop "num".
