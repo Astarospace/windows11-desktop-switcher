@@ -2,11 +2,11 @@
 I wrote this as a quick evening script to solve my problem. If you're looking for something more robust & need more than this script can give you, check out:
 https://github.com/sdias/win-10-virtual-desktop-enhancer
 
-# windows-desktop-switcher
-An AutoHotKey script for Windows that lets a user change virtual desktops by pressing Win + &lt;num>. It also allows for creation/deletion of desktops by hotkey (see below).
+# windows11-desktop-switcher
+An AutoHotKey script for Windows 11 that lets a user change virtual desktops by pressing Win + &lt;num>. It also allows for creation/deletion of desktops by hotkey (see below).
 
 ## Overview
-This script creates 'better' hotkeys for switching virtual desktops in windows 10. I built this to better mirror
+This script creates 'better' hotkeys for switching virtual desktops in windows 11. I built this to better mirror
 the mapping I use on linux (with dwm), and it's always annoyed me that Windows does not have better
 hotkey support for this feature (for instance, there's no way to go directly to a desktop by number).
 
@@ -23,4 +23,4 @@ To change the key mappings, modify the bottom of the script and reload. Be sure 
 ## Other
 To see debug messages, download [SysInternals DebugView](https://technet.microsoft.com/en-us/sysinternals/debugview).
 
-Disclaimer: I've only tried this on my machine, and on Windows 10. Use at your own risk.
+Notice: I've tried the original windows-desktop-switcher script on my machine, on Windows 11. A bug would happen where the numbering will start from the current desktop instead of desktop 1. So, if I was on desktop 3, the numbering would start from there and I couldn't go to desktop 1 by pressing Win+1. This fork fixes this bug.
