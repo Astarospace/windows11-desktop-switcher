@@ -1,5 +1,7 @@
 ### Quick note
-I wrote this as a quick evening script to solve my problem. If you're looking for something more robust & need more than this script can give you, check out:
+I've tried the searene's windows-desktop-switcher script on my machine, on Windows 11. A bug would happen where the numbering will start from the current desktop instead of desktop 1. So, if I was on desktop 3, the numbering would start from there and I couldn't go to desktop 1 by pressing Win+1. This fork fixes this bug. 
+
+Here's searene's quick note: I wrote this as a quick evening script to solve my problem. If you're looking for something more robust & need more than this script can give you, check out:
 https://github.com/sdias/win-10-virtual-desktop-enhancer
 
 # windows11-desktop-switcher
@@ -38,5 +40,3 @@ To change the key mappings, modify the bottom of the script and reload. Be sure 
 
 ## Other
 To see debug messages, download [SysInternals DebugView](https://technet.microsoft.com/en-us/sysinternals/debugview).
-
-Notice: I've tried the original windows-desktop-switcher script on my machine, on Windows 11. A bug would happen where the numbering will start from the current desktop instead of desktop 1. So, if I was on desktop 3, the numbering would start from there and I couldn't go to desktop 1 by pressing Win+1. This fork fixes this bug.
