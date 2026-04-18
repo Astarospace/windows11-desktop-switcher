@@ -31,8 +31,8 @@ hotkey support for this feature (for instance, there's no way to go directly to 
 
 ## Hotkeys
         <Win> + <Num>      - Switches to virtual desktop "num".
-        <Win> + A or P     - Switch to virtual desktop on left
-        <Win> + S or N     - Switch to virtual desktop on right
+        <Win> + A or N     - Switch to virtual desktop on left
+        <Win> + S or P     - Switch to virtual desktop on right
 
 To change the key mappings, modify the bottom of the script and reload. Be sure to read about the [symbols AutoHotKey uses](https://autohotkey.com/docs/Hotkeys.htm) for key mapping.
 
