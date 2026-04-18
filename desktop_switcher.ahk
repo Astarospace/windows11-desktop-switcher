@@ -14,7 +14,7 @@ mapDesktopsFromRegistry() {
     IdLength := 32
     SessionId := getSessionId()
     if (SessionId) {
-        RegRead, CurrentDesktopId, HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SessionInfo\%SessionId%\VirtualDesktops, CurrentVirtualDesktop
+        RegRead, CurrentDesktopId, HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VirtualDesktops, CurrentVirtualDesktop
         if (CurrentDesktopId) {
             IdLength := StrLen(CurrentDesktopId)
         }
